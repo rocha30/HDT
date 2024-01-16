@@ -1,0 +1,31 @@
+package HDT1;
+
+public class Main {
+    public static void main(String[] args) {
+        RadioCarro miRadio = new RadioCarro();
+
+        // Encender la radio
+        miRadio.encender();
+        System.out.println("La radio está encendida.");
+
+        // Cambiar la frecuencia
+        miRadio.cambiarFrecuencia();
+        System.out.println("La frecuencia ha cambiado.");
+
+        // Avanzar la emisora
+        miRadio.avanzarEmisora();
+        System.out.println("La emisora ha avanzado.");
+
+        // Guardar la emisora en el botón 1
+        miRadio.guardarEmisora(1);
+        System.out.println("La emisora se ha guardado en el botón 1.");
+
+        // Seleccionar la emisora guardada en el botón 1
+        miRadio.seleccionarEmisoraGuardada(1);
+        System.out.println("Se ha seleccionado la emisora guardada en el botón 1.");
+
+        // Apagar la radio
+        miRadio.apagar();
+        System.out.println("La radio está apagada.");
+    }
+}
