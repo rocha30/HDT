@@ -1,0 +1,12 @@
+package HDT1;
+
+public interface Radio {
+
+    void encender();
+    void apagar();
+    void cambiarFrecuencia();
+    void avanzarEmisora();
+    void guardarEmisora(int botno);
+    void seleccionarEmisoraGuardada(int boton);
+
+} 
